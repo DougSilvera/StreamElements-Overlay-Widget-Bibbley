@@ -76,8 +76,8 @@ The timer is based on **stream start time**, not incremental extensions.
   --------- ------------------------------------
   `< 5`     Timer hidden (`--:--:--`)
   `≥ 5`     6-hour countdown becomes visible
-  `≥ 70`    Upgrades to 12-hour total duration
-  `≥ 150`   Upgrades to 24-hour total duration
+  `≥ 35`    Upgrades to 12-hour total duration
+  `≥ 75`    Upgrades to 24-hour total duration
 
 Important:
 
@@ -98,8 +98,8 @@ Displays:
 
 Example:
 
-    12 / 15
-    Next unlock: Alien Onesie
+    12 / 20
+    Next unlock: GRWM Stream (later date)
 
 ------------------------------------------------------------------------
 
@@ -145,19 +145,18 @@ The widget handles StreamElements events:
 # Milestone Rewards
 
   Goal   Reward
-  ------ ---------------------------
-  5      6 hour stream
-  10     Camera on
-  15     Alien Onesie
-  20     Chamoy Pickle
-  25     Creative Games + Giveaway
-  30     Harmonica Coms
-  50     Bieber Costume
-  55     Bieber Karaoke
-  70     12 Hours unlocked
-  100    Movie night in discord
-  150    24 Hours
-  200    Resident Evil 7
+  ------ ---------------------------------------
+  5      Bee Onesie for One Hour
+  10     6 Hour Stream
+  20     GRWM Stream (later date)
+  25     $15.00 VBuck Giveaway
+  30     Bibbley Takes a Gummy
+  40     Bibbley, Maggs, and Momster Play Don't Pull Me
+  50     $15.00 VBuck Giveaway
+  60     Fortnite Duo Fill Voice Chat Trolling
+  75     24 Hour Stream (timer auto-upgrades here too)
+  100    $20 VBuck Giveaway
+  125    Pie in the Face by Mini Bibbley
 
 ------------------------------------------------------------------------
 

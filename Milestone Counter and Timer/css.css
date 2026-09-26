@@ -1,4 +1,20 @@
 /* =========================
+   HONEY HARVEST PALETTE
+   ========================= */
+
+:root {
+  --honey-gold: #f2a93c;
+  --pumpkin-orange: #e07a1f;
+  --choc-brown: #3b2415;
+  --choc-brown-deep: #1e1008;
+  --parchment: #f0dfb8;
+  --moss-green: #6b7a3a;
+  --maple-red: #b5451f;
+  --ink-black: #1a1210;
+  --blush-pink: #f2a9a0;
+}
+
+/* =========================
    RIGHT STACK (TIMER + MILESTONE)
    ========================= */
 
@@ -39,19 +55,19 @@
   border-radius: 18px;
 
   background:
-    radial-gradient(circle at 20% 20%, rgba(255, 120, 255, 0.12), transparent 50%),
-    linear-gradient(180deg, rgba(25, 10, 35, 0.9), rgba(10, 5, 20, 0.85));
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.4), transparent 55%),
+    linear-gradient(180deg, rgba(247, 214, 150, 0.92), rgba(242, 197, 124, 0.88));
 
-  border: 2px solid rgba(255, 100, 220, 0.45);
+  border: 2px solid rgba(224, 122, 31, 0.6);
 
   box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.6),
-    0 0 25px rgba(255, 80, 200, 0.25),
-    0 0 0 1px rgba(0, 0, 0, 0.5) inset;
+    0 20px 40px rgba(59, 36, 21, 0.25),
+    0 0 25px rgba(242, 169, 60, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.4) inset;
 
   backdrop-filter: blur(6px);
 
-  color: rgba(255, 255, 255, 0.95);
+  color: var(--choc-brown);
 
   pointer-events: none;
 }
@@ -67,11 +83,11 @@
 
   margin-bottom: 10px;
 
-  color: rgba(255, 200, 255, 0.9);
+  color: var(--maple-red);
 
   text-shadow:
-    0 2px 0 rgba(0, 0, 0, 0.8),
-    0 0 12px rgba(255, 120, 255, 0.4);
+    0 1px 0 rgba(255, 255, 255, 0.6),
+    0 0 10px rgba(242, 169, 60, 0.35);
 }
 
 /* big hero countdown */
@@ -84,20 +100,19 @@
 
   line-height: 1;
 
-  color: rgba(255, 230, 255, 0.98);
+  color: var(--choc-brown-deep);
 
   text-shadow:
-    0 4px 0 rgba(0, 0, 0, 0.8),
-    0 10px 25px rgba(0, 0, 0, 0.5),
-    0 0 18px rgba(255, 80, 200, 0.35),
-    0 0 32px rgba(120, 180, 255, 0.2);
+    0 2px 0 rgba(255, 255, 255, 0.5),
+    0 10px 20px rgba(59, 36, 21, 0.25),
+    0 0 14px rgba(224, 122, 31, 0.3);
 }
 
 #timerCountdown {
-  animation: junglePulse 6s ease-in-out infinite;
+  animation: honeyPulse 6s ease-in-out infinite;
 }
 
-@keyframes junglePulse {
+@keyframes honeyPulse {
   0%, 100% {
     filter: brightness(1);
   }
@@ -125,18 +140,18 @@
   border-radius: 18px;
 
   background:
-    radial-gradient(circle at 20% 20%, rgba(255, 120, 255, 0.10), transparent 50%),
-    linear-gradient(180deg, rgba(25, 10, 35, 0.9), rgba(10, 5, 20, 0.85));
+    radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.35), transparent 55%),
+    linear-gradient(180deg, rgba(240, 202, 150, 0.9), rgba(232, 183, 128, 0.86));
 
-  border: 2px solid rgba(120, 180, 255, 0.45);
+  border: 2px solid rgba(181, 69, 31, 0.55);
 
   box-shadow:
-    0 20px 40px rgba(0, 0, 0, 0.6),
-    0 0 25px rgba(120, 180, 255, 0.25),
-    0 0 0 1px rgba(0, 0, 0, 0.5) inset;
+    0 20px 40px rgba(59, 36, 21, 0.25),
+    0 0 25px rgba(107, 122, 58, 0.2),
+    0 0 0 1px rgba(255, 255, 255, 0.4) inset;
 
   backdrop-filter: blur(6px);
-  color: rgba(255, 255, 255, 0.95);
+  color: var(--choc-brown);
   pointer-events: none;
   z-index: 20;
 
@@ -160,11 +175,11 @@
   line-height: 1.25;
   text-align: center;
 
-  color: rgba(220, 240, 255, 0.95);
+  color: var(--choc-brown);
 
   text-shadow:
-    0 2px 0 rgba(0, 0, 0, 0.8),
-    0 0 12px rgba(120, 180, 255, 0.35);
+    0 1px 0 rgba(255, 255, 255, 0.6),
+    0 0 10px rgba(107, 122, 58, 0.3);
 }
 
 #milestoneSubs {
@@ -173,11 +188,10 @@
   font-variant-numeric: tabular-nums;
   text-align: center;
 
-  color: rgba(255, 220, 255, 0.98);
+  color: var(--maple-red);
 
   text-shadow:
-    0 3px 0 rgba(0, 0, 0, 0.8),
-    0 10px 25px rgba(0, 0, 0, 0.5),
-    0 0 16px rgba(255, 80, 200, 0.35),
-    0 0 28px rgba(120, 180, 255, 0.2);
+    0 2px 0 rgba(255, 255, 255, 0.5),
+    0 10px 20px rgba(59, 36, 21, 0.25),
+    0 0 14px rgba(242, 169, 60, 0.3);
 }
