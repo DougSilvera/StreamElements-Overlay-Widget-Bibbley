@@ -12,22 +12,21 @@
   // ---------------------------
   const DEFAULT_START_HOURS = 6;
   const TIMER_REVEAL_SUBS = 5;
-  const TIMER_12H_SUBS = 70;
-  const TIMER_24H_SUBS = 150;
+  const TIMER_12H_SUBS = 35;
+  const TIMER_24H_SUBS = 75;
 
   const MILESTONES = [
-    { goal: 5, reward: "6 hour stream" },
-    { goal: 10, reward: "Camera on" },
-    { goal: 15, reward: "Alien Onesie" },
-    { goal: 20, reward: "Chamoy Pickle" },
-    { goal: 25, reward: "Creative Games + Giveaway" },
-    { goal: 30, reward: "Harmonica Coms" },
-    { goal: 50, reward: "Bieber Costume" },
-    { goal: 55, reward: "Bieber Karaoke" },
-    { goal: 70, reward: "12 Hours unlocked" },
-    { goal: 100, reward: "Movie night in discord" },
-    { goal: 150, reward: "24 Hours" },
-    { goal: 200, reward: "Resident Evil 7" },
+    { goal: 5, reward: "Bee Onesie for One Hour" },
+    { goal: 10, reward: "6 Hour Stream" },
+    { goal: 20, reward: "GRWM Stream (later date)" },
+    { goal: 25, reward: "$15.00 VBuck Giveaway" },
+    { goal: 30, reward: "Bibbley Takes a Gummy" },
+    { goal: 40, reward: "Bibbley, Maggs, and Momster Play Don't Pull Me" },
+    { goal: 50, reward: "$15.00 VBuck Giveaway" },
+    { goal: 60, reward: "Fortnite Duo Fill Voice Chat Trolling" },
+    { goal: 75, reward: "24 Hour Stream" },
+    { goal: 100, reward: "$20 VBuck Giveaway" },
+    { goal: 125, reward: "Pie in the Face by Mini Bibbley" },
   ];
 
   // Prevent double counting: keep a rolling set of event fingerprints
