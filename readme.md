@@ -74,8 +74,8 @@ The timer is based on **stream start time**, not incremental extensions.
 
 | Subs   | Timer Behavior                      |
 | ------ | ------------------------------------ |
-| `< 5`  | Timer hidden (`--:--:--`)            |
-| `≥ 5`  | 6-hour countdown becomes visible     |
+| `< 10`  | Timer hidden (`--:--:--`)            |
+| `≥ 10`  | 6-hour countdown becomes visible     |
 | `≥ 35` | Upgrades to 12-hour total duration   |
 | `≥ 75` | Upgrades to 24-hour total duration   |
 

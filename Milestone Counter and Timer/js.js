@@ -11,7 +11,7 @@
   // Config
   // ---------------------------
   const DEFAULT_START_HOURS = 6;
-  const TIMER_REVEAL_SUBS = 5;
+  const TIMER_REVEAL_SUBS = 10;
   const TIMER_12H_SUBS = 35;
   const TIMER_24H_SUBS = 75;
 
