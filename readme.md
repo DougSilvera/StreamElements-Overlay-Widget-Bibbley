@@ -50,11 +50,11 @@ Inside the overlay:
 
 Open the widget editor and paste:
 
-  Widget Tab   File
-  ------------ -------------
-  HTML         `html.html`
-  CSS          `css.css`
-  JS           `js.js`
+| Widget Tab | File        |
+| ---------- | ----------- |
+| HTML       | `html.html` |
+| CSS        | `css.css`   |
+| JS         | `js.js`     |
 
 Save the widget.
 
@@ -72,12 +72,12 @@ Copy the overlay URL and add it as a **Browser Source** in OBS.
 
 The timer is based on **stream start time**, not incremental extensions.
 
-  Subs      Timer Behavior
-  --------- ------------------------------------
-  `< 5`     Timer hidden (`--:--:--`)
-  `≥ 5`     6-hour countdown becomes visible
-  `≥ 35`    Upgrades to 12-hour total duration
-  `≥ 75`    Upgrades to 24-hour total duration
+| Subs   | Timer Behavior                      |
+| ------ | ------------------------------------ |
+| `< 5`  | Timer hidden (`--:--:--`)            |
+| `≥ 5`  | 6-hour countdown becomes visible     |
+| `≥ 35` | Upgrades to 12-hour total duration   |
+| `≥ 75` | Upgrades to 24-hour total duration   |
 
 Important:
 
@@ -144,19 +144,19 @@ The widget handles StreamElements events:
 
 # Milestone Rewards
 
-  Goal   Reward
-  ------ ---------------------------------------
-  5      Bee Onesie for One Hour
-  10     6 Hour Stream
-  20     GRWM Stream (later date)
-  25     $15.00 VBuck Giveaway
-  30     Bibbley Takes a Gummy
-  40     Bibbley, Maggs, and Momster Play Don't Pull Me
-  50     $15.00 VBuck Giveaway
-  60     Fortnite Duo Fill Voice Chat Trolling
-  75     24 Hour Stream (timer auto-upgrades here too)
-  100    $20 VBuck Giveaway
-  125    Pie in the Face by Mini Bibbley
+| Goal | Reward                                          |
+| ---- | ------------------------------------------------ |
+| 5    | Bee Onesie for One Hour                           |
+| 10   | 6 Hour Stream                                     |
+| 20   | GRWM Stream (later date)                          |
+| 25   | $15.00 VBuck Giveaway                             |
+| 30   | Bibbley Takes a Gummy                             |
+| 40   | Bibbley, Maggs, and Momster Play Don't Pull Me    |
+| 50   | $15.00 VBuck Giveaway                             |
+| 60   | Fortnite Duo Fill Voice Chat Trolling             |
+| 75   | 24 Hour Stream (timer auto-upgrades here too)     |
+| 100  | $20 VBuck Giveaway                                |
+| 125  | Pie in the Face by Mini Bibbley                   |
 
 ------------------------------------------------------------------------
 
